@@ -1,0 +1,409 @@
+{
+    "nutrition": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "apple_pie"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "265"
+                    },
+                    "fat ": {
+                        "N": "13"
+                    },
+                    "carb ": {
+                        "N": "37"
+                    },
+                    "protein": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "baby_back_ribs"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "290"
+                    },
+                    "fat ": {
+                        "N": "20"
+                    },
+                    "carb ": {
+                        "N": "5"
+                    },
+                    "protein": {
+                        "N": "23"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "baklava"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "400"
+                    },
+                    "fat ": {
+                        "N": "20"
+                    },
+                    "carb ": {
+                        "N": "52"
+                    },
+                    "protein": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "breakfast_burrito"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "169"
+                    },
+                    "fat ": {
+                        "N": "7"
+                    },
+                    "carb ": {
+                        "N": "19"
+                    },
+                    "protein": {
+                        "N": "7"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "caesar_salad"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "158"
+                    },
+                    "fat ": {
+                        "N": "13"
+                    },
+                    "carb ": {
+                        "N": "8"
+                    },
+                    "protein": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "cannoli"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "293"
+                    },
+                    "fat ": {
+                        "N": "19"
+                    },
+                    "carb ": {
+                        "N": "23"
+                    },
+                    "protein": {
+                        "N": "8"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "chicken_wings"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "328"
+                    },
+                    "fat ": {
+                        "N": "24"
+                    },
+                    "carb ": {
+                        "N": "10"
+                    },
+                    "protein": {
+                        "N": "17"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "creme_brulee"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "343"
+                    },
+                    "fat ": {
+                        "N": "30"
+                    },
+                    "carb ": {
+                        "N": "15"
+                    },
+                    "protein": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "deviled_eggs"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "225"
+                    },
+                    "fat ": {
+                        "N": "19"
+                    },
+                    "carb ": {
+                        "N": "47"
+                    },
+                    "protein": {
+                        "N": "0"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "donuts"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "412"
+                    },
+                    "fat ": {
+                        "N": "23"
+                    },
+                    "carb ": {
+                        "N": "29"
+                    },
+                    "protein": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "dumplings"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "230"
+                    },
+                    "fat ": {
+                        "N": "5"
+                    },
+                    "carb ": {
+                        "N": "39"
+                    },
+                    "protein": {
+                        "N": "6"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "eggs_benedict"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "260"
+                    },
+                    "fat ": {
+                        "N": "19"
+                    },
+                    "carb ": {
+                        "N": "11"
+                    },
+                    "protein": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "falafel"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "416"
+                    },
+                    "fat ": {
+                        "N": "37"
+                    },
+                    "carb ": {
+                        "N": "19"
+                    },
+                    "protein": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "fried_calamari"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "249"
+                    },
+                    "fat ": {
+                        "N": "10"
+                    },
+                    "carb ": {
+                        "N": "26"
+                    },
+                    "protein": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "fried_rice"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "174"
+                    },
+                    "fat ": {
+                        "N": "3"
+                    },
+                    "carb ": {
+                        "N": "33"
+                    },
+                    "protein": {
+                        "N": "4"
+                    }
+                }
+            }
+        }
+    ]
+}

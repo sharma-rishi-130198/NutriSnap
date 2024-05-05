@@ -1,0 +1,30 @@
+"ProjectArn": "arn:aws:rekognition:us-east-1:025467948525:project/Food-30/1701008583446"
+
+"ProjectVersionArn": "arn:aws:rekognition:us-east-1:025467948525:project/Food-30/version/Food-30.2023-11-26T09.25.22/1701008723202"
+
+
+Commands:
+1) Update credentials file
+
+2) Create S3 bucket called target-rekognition-bucket in target account
+
+3) Create project in target account : aws rekognition create-project --project-name my_model_30_target --region us-east-1 --profile target
+
+{
+    "ProjectArn": "arn:aws:rekognition:us-east-1:505532813527:project/model_30_target/1701129808298"
+}
+
+4) Create a json file called output-config.json with the content as :
+
+{
+    "S3Bucket": "my-target-rekognition-bucket",
+    "S3KeyPrefix": "my-target-rekognition-bucket-pref"
+}
+
+5) Run the copy command in source account :
+
+aws rekognition copy-project-version --source-project-arn arn:aws:rekognition:us-east-1:025467948525:project/Food-30/1701008583446 --source-project-version-arn arn:aws:rekognition:us-east-1:025467948525:project/Food-30/version/Food-30.2023-11-26T09.25.22/1701008723202 --destination-project-arn arn:aws:rekognition:us-east-1:505532813527:project/my_model_30_target/1701913886990 --version-name my_model_30_copied --output-config file://output-config.json --region us-east-1 --profile target
+
+6) check status of model 
+
+aws rekognition describe-project-versions --project-arn arn:aws:rekognition:us-east-1:505532813527:project/my_model_30_target/1701913886990 --version-names my_model_30_copied --region us-east-1 --profile target

@@ -1,0 +1,409 @@
+{
+    "nutrition": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "garlic_bread"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "350"
+                    },
+                    "fat ": {
+                        "N": "17"
+                    },
+                    "carb ": {
+                        "N": "42"
+                    },
+                    "protein": {
+                        "N": "8"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "grilled_cheese_sandwich"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "344"
+                    },
+                    "fat ": {
+                        "N": "22"
+                    },
+                    "carb ": {
+                        "N": "27"
+                    },
+                    "protein": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "grilled_salmon"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "206"
+                    },
+                    "fat ": {
+                        "N": "12"
+                    },
+                    "carb ": {
+                        "N": "0"
+                    },
+                    "protein": {
+                        "N": "22"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "hot_dog"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "322"
+                    },
+                    "fat ": {
+                        "N": "29"
+                    },
+                    "carb ": {
+                        "N": "3"
+                    },
+                    "protein": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "hummus"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "166"
+                    },
+                    "fat ": {
+                        "N": "10"
+                    },
+                    "carb ": {
+                        "N": "14"
+                    },
+                    "protein": {
+                        "N": "8"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "ice_cream"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "207"
+                    },
+                    "fat ": {
+                        "N": "11"
+                    },
+                    "carb ": {
+                        "N": "24"
+                    },
+                    "protein": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "lasagna"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "156"
+                    },
+                    "fat ": {
+                        "N": "8"
+                    },
+                    "carb ": {
+                        "N": "9"
+                    },
+                    "protein": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "macarons"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "384"
+                    },
+                    "fat ": {
+                        "N": "17"
+                    },
+                    "carb ": {
+                        "N": "53"
+                    },
+                    "protein": {
+                        "N": "8"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "nachos"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "224"
+                    },
+                    "fat ": {
+                        "N": "17"
+                    },
+                    "carb ": {
+                        "N": "5"
+                    },
+                    "protein": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "omelette"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "181"
+                    },
+                    "fat ": {
+                        "N": "14"
+                    },
+                    "carb ": {
+                        "N": "1"
+                    },
+                    "protein": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "oysters"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "163"
+                    },
+                    "fat ": {
+                        "N": "5"
+                    },
+                    "carb ": {
+                        "N": "10"
+                    },
+                    "protein": {
+                        "N": "19"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "paella"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "183"
+                    },
+                    "fat ": {
+                        "N": "9"
+                    },
+                    "carb ": {
+                        "N": "14"
+                    },
+                    "protein": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "peking_duck"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "241"
+                    },
+                    "fat ": {
+                        "N": "15"
+                    },
+                    "carb ": {
+                        "N": "15"
+                    },
+                    "protein": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "hamburger"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "239"
+                    },
+                    "fat ": {
+                        "N": "12"
+                    },
+                    "carb ": {
+                        "N": "18"
+                    },
+                    "protein": {
+                        "N": "15"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Food": {
+                        "S": "waffles"
+                    },
+                    "unit": {
+                        "S": "grams"
+                    },
+                    "quantity": {
+                        "N": "100"
+                    },
+                    "calorie": {
+                        "N": "290"
+                    },
+                    "fat ": {
+                        "N": "11"
+                    },
+                    "carb ": {
+                        "N": "40"
+                    },
+                    "protein": {
+                        "N": "7"
+                    }
+                }
+            }
+        }
+    ]
+}

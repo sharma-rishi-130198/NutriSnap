@@ -1,0 +1,27 @@
+.Upload-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quantity-input {
+    margin-top: 10px;
+  }
+  
+  .item-name {
+    margin-top: 10px;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
+  
+  .calories-info {
+    margin-top: 20px;
+  }
+  
+  
+

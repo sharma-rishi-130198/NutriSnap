@@ -1,0 +1,6 @@
+cognito_user_pool_name = "MyUserPool"
+cognito_user_pool_client_name = "MyUserPoolClient"
+token = "<YOUR GITHUB TOKEN>"
+repository = "https://github.com/SWEN-514-614-2231/term-project-team04.git"
+app_name = "MyAmplifyAppTf"
+branch_name = "main"
