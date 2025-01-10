@@ -25,9 +25,9 @@ Its motto, "Snap, Track, Thrive," highlights its role as a pocket-sized health c
 
 1. The user takes a picture of their food and uploads it to the backend using our APIs.
 2. This triggers a Lambda function, which fetches our machine learning model built using Rekognition/SageMaker to identify the food item.
-3. We then query RDS to get the calorific information of this food item.
-4. The Lambda function then updates the user's profile and historical data in RDS and along with the calorific information, returns it to the frontend in a json object.
-5. The user can then view their nutritional information in the frontend.
+3. We then query DynamoDB collections to get the nutritional information of this food item.
+4. The Lambda function then updates the user's profile and historical data in DynamoDB collections along with the nutritional information, and returns it to the frontend in a json object.
+5. The user can then view their nutritional information in tabular and graph format in the frontend.
 
 <div style="display: flex; gap: 60px;">
     <img src="https://github.com/user-attachments/assets/c78568e6-daa1-4fa8-8f91-03179cce778b" alt="Image 1" width="213">
@@ -64,7 +64,7 @@ Its motto, "Snap, Track, Thrive," highlights its role as a pocket-sized health c
 
 If given more time, I would look to work on the below enhancements:
 
-* **Expanded Food Database:** Increase the current recognition limit of 30 food items to improve variety and calorie accuracy.  
+* **Expanded Food Database:** Increase the current recognition limit of 30 food items to improve variety and nutrient accuracy.  
 * **Mobile Optimization:** Make the app fully compatible with mobile devices for easier food photo uploads and increased accessibility.  
 * **Personalized Recommendations:** Offer tailored dietary and workout suggestions based on user history to support fitness and health goals.  
 * **Multi-Food Recognition:** Enable identification of multiple food items in a single image for improved efficiency and usability.  
